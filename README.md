@@ -19,10 +19,10 @@ Capture live network packets using Wireshark and analyze the captured traffic to
    ```bash
    ping 8.8.8.8
    ```
+4. ✅ Captured traffic for **approximately 1 minute**.
 
 ![Captured](https://github.com/Amish-C-K/Elevate-Labs--task5/blob/main/images/t5-2.png)
-   
-4. ✅ Captured traffic for **approximately 1 minute**.
+
 5. ✅ Stopped and saved the capture as `network-traffic-task5.pcapng` and as `network-traffic-task5.pcap`.
 6. ✅ Analyzed protocols using filters and **Statistics → Protocol Hierarchy**.
 
