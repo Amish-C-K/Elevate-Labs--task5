@@ -13,14 +13,14 @@ Capture live network packets using Wireshark and analyze the captured traffic to
 
 ## 🧪 Steps Performed
 
-1. ✅ Installed and launched **Wireshark**.
-2. ✅ Started capture on the **active network interface (Wi-Fi)**.
+1. ✅ Launched **Wireshark**.
+2. ✅ Started capture.
 3. ✅ Browsed multiple websites and used `ping` to generate traffic:
    ```bash
-   ping google.com
+   ping 8.8.8.8
    ```
 4. ✅ Captured traffic for **approximately 1 minute**.
-5. ✅ Stopped and saved the capture as `network-traffic-task5.pcapng`.
+5. ✅ Stopped and saved the capture as `network-traffic-task5.pcapng` and as `network-traffic-task5.pcap`.
 6. ✅ Analyzed protocols using filters and **Statistics → Protocol Hierarchy**.
 
 ---
@@ -53,7 +53,7 @@ Capture live network packets using Wireshark and analyze the captured traffic to
 
 ### 🔹 TCP
 - **Flags**: SYN, ACK  
-- **Purpose**: Connection setup to `openai.com:443`
+- **Purpose**: Connection setup to `example.com:443`
 
 ### 🔹 TLS v1.3
 - **Details**: Client Hello  
@@ -69,6 +69,7 @@ Capture live network packets using Wireshark and analyze the captured traffic to
 ## 📁 Deliverables
 
 - 📦 Packet Capture File: `network-traffic-task5.pcapng`
+- 📦 Packet Capture File: `network-traffic-task5.pcap`
 - 📝 This report in `README.md` format
 
 ---
@@ -76,7 +77,3 @@ Capture live network packets using Wireshark and analyze the captured traffic to
 ## ✅ Outcome
 
 This hands-on exercise helped me gain practical experience with Wireshark, understand how common internet protocols operate, and visualize real-time network activity and communication flow between systems.
-
----
-
-> _Created as part of a cybersecurity learning module._
